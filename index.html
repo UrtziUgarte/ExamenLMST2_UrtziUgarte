@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter-UNIR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/arcade.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>To live is to fight, to fight is to live!</h1>
+    <table>
+        <tr>
+            <th colspan="4">Street Fighter</th>
+        </tr>
+        <tr>
+            <td>KEN <img src="./img/ken.png" alt="KEN"></td>
+            <td>CHUN LI <img src="./img/ChunLi.png" alt="CHUN LI"></td>
+            <td>ZANGIEF <img src="./img/Zangief.png" alt="ZANGIEF"></td>
+            <td>DHALSIM <img src="./img/Dhalsim.png" alt="DHALSIM"></td>
+        </tr>
+        <tr>
+            <td>RYU <img src="./img/Ryu.png" alt="Ryu"></td>
+            <td>E HONDA <img src="./img/EHonda.png" alt="EHonda"></td>
+            <td>BLANKA <img src="./img/Blanka.png" alt="Blanka"></td>
+            <td>GUILLE <img src="./img/Guille.png" alt="Guille"></td>
+        </tr>
+        <tr>
+            <td>T HAWK <img src="./img/THawk.png" alt="THawk"></td>
+            <td>FEILONG <img src="./img/Feilong.png" alt="Feilong"></td>
+            <td>DEE JAY <img src="./img/DeeJay.png" alt="DeeJay"></td>
+            <td>CAMMY <img src="./img/Cammy.png" alt="Cammy"></td>
+        </tr>
+        <tr>
+            <td>BALROG <img src="./img/Balrog.png" alt="Balrog"></td>
+            <td>VEGA <img src="./img/Vega.png" alt="Vega"></td>
+            <td>SAGAT <img src="./img/Sagat.png" alt="Sagat"></td>
+            <td>M BISON <img src="./img/MBison.png" alt="MBison"></td>
+        </tr>
+    </table>
+
+    <h2>Formulario de Inscripción para jugar a Street Figther</h2>
+    <form name="formulario" action="mailto:urtziugartte@gmail.com" method="post">
+
+        <fieldset>
+            <legend class="legend">DATOS PERSONALES</legend>
+            <div class="padding">
+                <label for="nombre">Nombre: </label>
+            </div>
+            <input type="text" name="nombre" id="nombre">
+            <div class="padding">
+                <label for="apellidos">Apellidos: </label>
+            </div>
+            <input type="text" name="apellidos" id="apellidos">
+            <div class="padding">
+                <label for="direccion postal">Dirección Postal: </label>
+            </div>
+            <div class="padding">
+                <input type="text" placeholder="Calle">
+                <input type="text" placeholder="Nº">
+                <input type="text" placeholder="Piso">
+                <input type="text" placeholder="Cod.Postal">
+                <input type="text" placeholder="Ciudad">
+            </div>
+            <div class="padding">
+                <label for="nick">Nick: </label>
+            </div>
+            <input type="text" name="nick" id="nick">
+
+            <div class="padding">
+                <label for="correo electronico">Correo electrónico: </label>
+            </div>
+            <input type="email" name="email" id="email">
+        </fieldset>
+
+        <fieldset>
+            <legend class="legend">SEXO USUARIO</legend>
+            <div><input type="radio" name="sexo" value="Hombre">Hombre
+            </div>
+            <div><input type="radio" name="sexo" value="Mujer">Mujer
+            </div>
+            <div><input type="radio" name="sexo" value="Prefiero no decir">Prefiero No Decir
+            </div>
+        </fieldset>
+
+        <fieldset>
+            Fecha de nacimiento: <input type="date" name="" id="">
+        </fieldset>
+
+        <fieldset>
+            <legend class="legend">PERSONAJES</legend>
+            Selecciona el personaje:
+            <select name="sistemas">
+                <option value="1">KEND</option>
+                <option value="2">CHUN LI</option>
+                <option value="3">ZANGIEF</option>
+                <option value="4">DHALSIN</option>
+                <option value="5">RYU</option>
+                <option value="6">E HONDA</option>
+                <option value="7">BLANKA</option>
+                <option value="8">GUILLE</option>
+                <option value="9">T HAWK</option>
+                <option value="10">FEILONG</option>
+                <option value="11">DEE JAY</option>
+                <option value="12">CAMMY</option>
+                <option value="13">BALROG</option>
+                <option value="14">VEGA</option>
+                <option value="15">SAGAT</option>
+                <option value="16">M BISON</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend class="legend">COMENTARIOS</legend>
+            <textarea name="textarea" id="textarea"></textarea>
+        </fieldset>
+        <div class="padding">
+            <input class="submit" type="submit" value="Enviar">
+            <input class="submit" type="reset" value="Borrar">
+        </div>
+    </form>
+</body>
+
+</html>
